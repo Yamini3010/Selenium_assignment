@@ -1,0 +1,27 @@
+{
+  "tc01": {
+    "sText1":"miriyalayamini3010@gmail.com",
+    "sText2":"Yamini#3010#",
+    "expMsg": "valid login"
+  },
+  "tc02":{
+    "sText1":"hellouser3user3@gmail.com",
+    "sText2":"Ravi@123",
+    "expMsg": "valid mailId invalid password"
+  },
+  "tc03":{
+    "sText1":"xyz@gmail.com",
+    "sText2":"User2@123",
+    "expMsg": "Invalid mailId and valid password"
+  },
+  "tc04":{
+    "sText1":"abc@gmail.com",
+    "sText2":"Sweety@123",
+    "expMsg": "Invalid login"
+  },
+  "tc05":{
+    "sText1":"",
+    "sText2":"haihello@1234",
+    "expMsg": "Invalid"
+  }
+}
